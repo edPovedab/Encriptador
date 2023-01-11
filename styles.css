@@ -173,35 +173,10 @@
         width: 100%;
         left: 0;
         top: 200px;
-    }
-    
+    }  
 }
-@media only screen and (max-width: 480px){
-    .botones{
-        width: 100%;
-        left: 0;
-        top: 700px;
-    }
-    
-
-}
-@media only screen and (max-width: 480px){
-    .texto-resultado textarea, .muneco{
-        width: 100%;
-        left: 0;
-        top: 900px;
-    }
 
 
-}
-@media only screen and (max-width: 480px){
-    .rodapie{
-        width: 100%;
-        left: 0;
-        display: none;
-    }
-
-}
 
 
 
