@@ -9,7 +9,7 @@
       if (verificar) {
         var btnCopiar = document.getElementById("btn-copiar");
         btnCopiar.style.display = "block";
-        var ocultarMuneco = document.getElementById("dibujo");
+        var ocultarMuneco = document.getElementById("muneco");
         ocultarMuneco.style.display = "none";
         var ocultarTexto = document.getElementById("mensaje");
         ocultarTexto.style.display = "none"; 
@@ -99,6 +99,7 @@
 
     var textoResultado = document.getElementById("texto-resultado");
     textoResultado.innerText = textoEncriptado;
+      textoResultado.style.display = 'block';
   }
 
   function desencriptar(){
